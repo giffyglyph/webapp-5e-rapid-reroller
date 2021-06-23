@@ -1,0 +1,19 @@
+<div class="margin-bottom-sm">
+	<span class="key">Cash ({{value}} gp):</span>
+	<ul>
+		<li>
+			<a data-toggle="modal" href="#cash-{{_logId}}">{{output}}</a>
+		</li>
+	</ul>
+	<div id="cash-{{_logId}}" class="modal fade">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class='fa fa-times' aria-hidden='true'></i></button>
+					<h1>{{output}}</h1>
+					<p class="text-center"><span class="nowrap">{{coins}} coins</span>, weighing <span class="nowrap">{{weight}} lbs</span> and worth <span class="nowrap">{{value}} gp</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

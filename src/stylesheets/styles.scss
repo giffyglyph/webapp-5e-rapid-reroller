@@ -1,0 +1,340 @@
+// Common colors
+
+$black:           #000000;
+$white:           #FFFFFF;
+
+$card-header:     #C7C7C7;
+$divider:         #B9B9B9;
+$navigation-bg:   #212121;
+$page-bg:         #5D5D5D;
+$clickable:       #B3014B;
+$clickable-dark:  darken($clickable, 10%);
+
+$width-sm:        480px;
+
+// Common styles
+
+body {
+	background-color: $page-bg;
+	margin: 0;
+
+	@media screen and (max-width: $width-sm) {
+		font-size: 0.85em;
+	}
+}
+
+ul {
+	margin: 0;
+
+	@media screen and (max-width: $width-sm) {
+		padding-left: 2em;
+	}
+
+	&.list-plain {
+		padding-left: 0;
+
+		li {
+			list-style: none;
+		}
+	}
+}
+
+#top-nav {
+	background: $navigation-bg;
+	box-shadow: 0 4px 4px 0 rgba($page-bg, 0.5);
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+
+	h1 {
+		color: $white;
+		line-height: 4rem;
+		margin-bottom: 0;
+		margin-right: 0.5rem;
+		padding-left: 0.5rem;
+
+		@media screen and (max-width: $width-sm) {
+			display: none;
+		}
+	}
+
+	#selector {
+		display: flex;
+		max-width: 500px;
+		padding: 0.5em;
+		width: 100%;
+	}
+
+	select {
+		background-color: $white;
+		background-image: none;
+		border: 1px solid $white;
+		border-radius: 4px 0 0 4px;
+		display: block;
+		font-size: inherit;
+		height: 3em;
+		padding: 0 0.5em;
+		text-transform: capitalize;
+		width: 100%;
+	}
+
+	button {
+		background-color: $clickable;
+		background-image: none;
+		border: 1px solid $clickable;
+		border-radius: 0 4px 4px 0;
+		color: $white;
+		cursor: pointer;
+		display: inline-block;
+		font-size: inherit;
+		font-weight: bold;
+		margin-bottom: 0;
+		max-width: 4em;
+		overflow: hidden;
+		padding: 0 0.75em;
+		text-align: center;
+		touch-action: manipulation;
+		user-select: none;
+		vertical-align: middle;
+		white-space: nowrap;
+		width: 4em;
+
+		&:hover,
+		&:active {
+			background-color: $clickable-dark;
+			border-color: $clickable-dark;
+		}
+	}
+
+	button + button {
+		border-radius: 4px;
+		margin-left: 0.5em;
+	}
+}
+
+#log {
+	margin: 4em auto 0;
+	padding: 0.5em;
+}
+
+.log {
+
+	ul {
+		padding-left: 2em;
+	}
+
+	.key {
+		font-size: 90%;
+		font-weight: bold;
+		letter-spacing: 0.025em;
+	}
+
+	&:not(.template) .key {
+		color: $black;
+		text-transform: capitalize;
+	}
+
+	&:not(.template) ul {
+		padding-left: 0;
+
+		ul {
+			padding-left: 2em;
+		}
+	}
+
+	a {
+		color: $clickable;
+		cursor: pointer;
+		font-weight: bold;
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			color: $clickable-dark;
+		}
+	}
+}
+
+.list-unstyled {
+	list-style: none;
+}
+
+p {
+	margin: 0.5em 0;
+}
+
+.margin-bottom-sm {
+	margin-bottom: 0.5em;
+}
+
+.modal {
+	color: $black;
+	padding: 0 !important;
+	text-align: center;
+
+	&::before {
+		content: '';
+		display: inline-block;
+		height: 100%;
+		margin-right: -4px;
+		vertical-align: middle;
+	}
+}
+
+.modal-dialog {
+	display: inline-block;
+	margin: 0;
+	max-width: 90vw;
+	text-align: left;
+	vertical-align: middle;
+}
+
+button.close {
+	background: $clickable;
+	border: 0;
+	border-radius: 6px;
+	color: $white;
+	cursor: pointer;
+	font-size: 1em;
+	line-height: 1.55em;
+	opacity: 1;
+	padding: 0;
+	position: absolute;
+	right: 0.3em;
+	top: 0.6em;
+	width: 1.5em;
+
+	&:focus,
+	&:hover {
+		background: $clickable-dark;
+		color: $white;
+		opacity: 1;
+	}
+}
+
+.modal .close {
+	right: 0.6em;
+}
+
+.modal-body {
+	padding: 3em 5em;
+
+	@media screen and (max-width: $width-sm) {
+		padding: 2em 3em;
+	}
+
+	> :first-child {
+		margin-top: 0;
+	}
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+
+	h1 {
+		border-bottom: 1px dotted $divider;
+		font-size: 1.5em;
+		font-weight: bold;
+		line-height: 1.25em;
+		margin-bottom: 0.5em;
+		padding-bottom: 0.5em;
+		text-align: center;
+	}
+}
+
+.fade {
+	opacity: 0;
+	transition: opacity 0.1s linear;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.btn-primary {
+	background-color: $clickable;
+	border-color: $clickable;
+	cursor: pointer;
+	font-weight: bold;
+
+	&:active,
+	&:hover {
+		background-color: $clickable-dark;
+		border-color: $clickable-dark;
+	}
+}
+
+.card {
+	border: 0;
+	border-radius: 4px;
+}
+
+.card-block {
+	margin: 1em;
+	padding: 0;
+}
+
+.card-header {
+	background-color: $card-header;
+	border-bottom: 0;
+	border-radius: 4px 4px 0 0;
+	font-size: 90%;
+	font-weight: bold;
+	padding: 1em;
+	padding-right: 3em;
+	text-transform: capitalize;
+}
+
+.card-columns {
+	column-gap: 0.25em;
+
+	.card {
+		margin-bottom: 0.25em;
+	}
+
+	@media screen and (min-width: 1900px) {
+		columns: 4;
+	}
+
+	@media screen and (max-width: 1200px) {
+		columns: 2;
+	}
+
+	@media screen and (max-width: 700px) {
+		columns: 1;
+	}
+}
+
+.tagline {
+	color: $navigation-bg;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+// WFRP styles
+
+.table-wfrp-profile {
+	border: 1px solid $black;
+	table-layout: fixed;
+	width: 100%;
+
+	th {
+		background: $black;
+		color: $white;
+		font-size: smaller;
+		text-align: center;
+		width: 12.5%;
+	}
+
+	td {
+		text-align: center;
+
+		&:not(:last-of-type) {
+			border-right: 1px solid $card-header;
+		}
+	}
+}

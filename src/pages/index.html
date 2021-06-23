@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="ReRoller">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Giffyglyph's Reroller</title>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+		<script src="scripts/parser.js"></script>
+		<script src="scripts/reroller.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />	
+
+		<script type="text/javascript">
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-91999052-1', 'auto');
+			ga('send', 'pageview');
+
+			$(document).ready(function () {
+				Reroller.initialize({
+					url: {
+						tables: "tables/",
+						templates: "templates/"
+					},
+					el: {
+						select: "#selector select",
+						button: "#generate",
+						log: "#log"
+					},
+					onRoll: function(tableName) {
+						ga('send', 'event', 'reroller', 'roll', tableName);
+					}
+				});
+
+				$("#clear-log").click(function () {
+					$(".log").remove();
+					$("#modal-options").modal('hide');
+
+					// Send clear event to GA
+					ga('send', 'event', 'reroller', 'clear', 'all');
+				});
+			});
+			$(window).on('show.bs.modal', function () {
+				var scrollbarWidth = (window.innerWidth - $(window).width());
+				$('#top-nav').css('padding-right', scrollbarWidth);
+			});
+			$(window).on('hidden.bs.modal', function () {
+				$('#top-nav').removeAttr('style');
+			});
+			function deleteLog(id) {
+				$("#log-" + id).slideUp("fast", function() {
+					$(this).remove();
+					ga('send', 'event', 'reroller', 'clear', 'log');
+				});
+			}
+		</script>
+	</head>
+	<body>
+		<div id="spinner"></div>
+		<div id="main">
+			<nav id="top-nav">
+				<h1>Reroller</h1>
+				<div id="selector">
+					<select></select>
+					<button id="generate">
+						<span class="fa fa-play fa-2x"></span>
+					</button>
+					<button id="options" data-toggle="modal" data-target="#modal-options">
+						<span class="fa fa-cog fa-2x"></span>
+					</button>
+				</div>
+			</nav>
+			<div id="log" class="card-columns"></div>
+			<p class="text-center tagline">
+				Giffyglyph's Reroller | Let's roll some dice
+			</p>
+		</div>
+		<div id="modal-options" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class='fa fa-times' aria-hidden='true'></i></button>
+						<h1>Options</h1>
+						<p class="text-center">
+							<button id="clear-log" class="btn btn-primary btn-block">
+								Clear log
+							</button>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

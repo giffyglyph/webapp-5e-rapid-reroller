@@ -1,0 +1,173 @@
+{
+	"C00-C04":{
+		"_visible":true,
+		"_template":"treasure_individual",
+		"_rows":[
+			{
+				"_range":"1-30",
+				"cp":"{dice(5,6)}",
+				"coins":"{#cp}",
+				"value":"{#cp/100}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#cp} cp"
+			},
+			{
+				"_range":"31-60",
+				"sp":"{dice(4,6)}",
+				"coins":"{#sp}",
+				"value":"{floor(#sp/10 * 100) / 100}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#sp} sp"
+			},
+			{
+				"_range":"61-70",
+				"ep":"{dice(3,6)}",
+				"coins":"{#ep}",
+				"value":"{floor(#ep/2 * 100) / 100}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#ep} ep"
+			},
+			{
+				"_range":"71-95",
+				"gp":"{dice(3,6)}",
+				"coins":"{#gp}",
+				"value":"{#gp}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#gp} gp"
+			},
+			{
+				"_range":"96-100",
+				"pp":"{dice(1,6)}",
+				"coins":"{#pp}",
+				"value":"{#pp*10}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#pp} pp"
+			}
+		]
+	},
+	"C05-C10":{
+		"_visible":true,
+		"_template":"treasure_individual",
+		"_rows":[
+			{
+				"_range":"1-30",
+				"cp":"{(dice(4,6) * 100) + rand(-50, 50)}",
+				"ep":"{(dice(1,6) * 10) + rand(-5, 5)}",
+				"coins":"{#cp+#ep}",
+				"value":"{floor((#cp/100 + #ep/2) * 100) / 100}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#cp} cp and {#ep} ep"
+			},
+			{
+				"_range":"31-60",
+				"sp":"{(dice(6,6) * 10) + rand(-5, 5)}",
+				"gp":"{(dice(2,6) * 10) + rand(-5, 5)}",
+				"coins":"{#sp+#gp}",
+				"value":"{floor((#sp/10 + #gp) * 100) / 100}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#sp} sp and {#gp} gp"
+			},
+			{
+				"_range":"61-70",
+				"ep":"{(dice(3,6) * 10) + rand(-5, 5)}",
+				"gp":"{(dice(2,6) * 10) + rand(-5, 5)}",
+				"coins":"{#ep+#gp}",
+				"value":"{floor((#ep/2 + #gp) * 100) / 100}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#ep} ep and {#gp} gp"
+			},
+			{
+				"_range":"71-95",
+				"gp":"{(dice(4,6) * 10) + rand(-5, 5)}",
+				"coins":"{#gp}",
+				"value":"{#gp}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#gp} gp"
+			},
+			{
+				"_range":"96-100",
+				"gp":"{(dice(2,6) * 10) + rand(-5, 5)}",
+				"pp":"{dice(3,6)}",
+				"coins":"{#gp+#pp}",
+				"value":"{#gp + (#pp * 10)}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#gp} gp and {#pp} pp"
+			}
+		]
+	},
+	"C11-C16":{
+		"_visible":true,
+		"_template":"treasure_individual",
+		"_rows":[
+			{
+				"_range":"1-20",
+				"sp":"{(dice(4,6) * 100) + rand(-50, 50)}",
+				"gp":"{(dice(1,6) * 100) + rand(-50, 50)}",
+				"coins":"{#sp+#gp}",
+				"value":"{floor((#sp/10 + #gp) * 100) / 100}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#sp} sp and {#gp} gp"
+			},
+			{
+				"_range":"21-35",
+				"ep":"{(dice(1,6) * 100) + rand(-50, 50)}",
+				"gp":"{(dice(1,6) * 100) + rand(-50, 50)}",
+				"coins":"{#ep+#gp}",
+				"value":"{floor((#ep/2 + #gp) * 100) / 100}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#ep} ep and {#gp} gp"
+			},
+			{
+				"_range":"36-75",
+				"gp":"{(dice(2,6) * 100) + rand(-50, 50)}",
+				"pp":"{(dice(1,6) * 10) + rand(-5, 5)}",
+				"coins":"{#gp+#pp}",
+				"value":"{#gp + (#pp * 10)}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#gp} gp and {#pp} pp"
+			},
+			{
+				"_range":"76-100",
+				"gp":"{(dice(2,6) * 100) + rand(-50, 50)}",
+				"pp":"{(dice(2,6) * 10) + rand(-5, 5)}",
+				"coins":"{#gp+#pp}",
+				"value":"{#gp + (#pp * 10)}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#gp} gp and {#pp} pp"
+			}
+		]
+	},
+	"C17+":{
+		"_visible":true,
+		"_template":"treasure_individual",
+		"_rows":[
+			{
+				"_range":"1-15",
+				"ep":"{(dice(2,6) * 1000) + rand(-500, 500)}",
+				"gp":"{(dice(8,6) * 100) + rand(-50, 50)}",
+				"coins":"{#ep+#gp}",
+				"value":"{floor((#ep/2 + #gp) * 100) / 100}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#ep} ep and {#gp} gp"
+			},
+			{
+				"_range":"16-55",
+				"gp":"{(dice(1,6) * 1000) + rand(-500, 500)}",
+				"pp":"{(dice(1,6) * 100) + rand(-50, 50)}",
+				"coins":"{#gp+#pp}",
+				"value":"{#gp + (#pp * 10)}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#gp} gp and {#pp} pp"
+			},
+			{
+				"_range":"56-100",
+				"gp":"{(dice(1,6) * 1000) + rand(-500, 500)}",
+				"pp":"{(dice(2,6) * 100) + rand(-50, 50)}",
+				"coins":"{#gp+#pp}",
+				"value":"{#gp + (#pp * 10)}",
+				"weight":"{floor(#coins/50 * 100) / 100}",
+				"output":"{#gp} gp and {#pp} pp"
+			}
+		]
+	}
+}

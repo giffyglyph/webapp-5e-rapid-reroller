@@ -1,0 +1,67 @@
+{{#if profile}}
+	<table class="table-wfrp-profile">
+		<tr>
+			<th>WS</th>
+			<th>BS</th>
+			<th>S</th>
+			<th>T</th>
+			<th>Ag</th>
+			<th>Int</th>
+			<th>WP</th>
+			<th>Fel</th>
+		</tr>
+		<tr>
+			<td>{{profile.WS}}</td>
+			<td>{{profile.BS}}</td>
+			<td>{{profile.S}}</td>
+			<td>{{profile.T}}</td>
+			<td>{{profile.AG}}</td>
+			<td>{{profile.INT}}</td>
+			<td>{{profile.WP}}</td>
+			<td>{{profile.FEL}}</td>
+		</tr>
+		<tr>
+			<th>A</th>
+			<th>W</th>
+			<th>SB</th>
+			<th>TB</th>
+			<th>M</th>
+			<th>Mag</th>
+			<th>IP</th>
+			<th>FP</th>
+		</tr>
+		<tr>
+			<td>{{profile.A}}</td>
+			<td>{{profile.W}}</td>
+			<td>{{profile.SB}}</td>
+			<td>{{profile.TB}}</td>
+			<td>{{profile.M}}</td>
+			<td>{{profile.MAG}}</td>
+			<td>{{profile.IP}}</td>
+			<td>{{profile.FP}}</td>
+		</tr>
+	</table>
+{{/if}}
+
+{{#if skills}}
+	<span class="key">Skills:</span>
+	<ul>
+		{{#each skills}}
+			<li>{{this}}</li>
+		{{/each}}
+	</ul>
+{{/if}}
+
+{{#if talents}}
+	<span class="key">Talents:</span>
+	<ul>
+		{{#each talents}}
+			<li>{{this}}</li>
+		{{/each}}
+	</ul>
+{{/if}}
+
+
+{{#if career}}
+	<p><span class="key">Career:</span> {{career}}</p>
+{{/if}}

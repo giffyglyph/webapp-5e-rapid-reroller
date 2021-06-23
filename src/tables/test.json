@@ -1,0 +1,32 @@
+{
+	"name": "treasure_hoard",
+	"description": "Randomised treasure hoards and loot",
+	"tables": [
+		{
+			"name": "C00-C04",
+			"description": "Challenge levels 0 to 4",
+			"rows": [
+				{
+					"cells": {
+						"cp":"{(dice(4,6) * 100) + rand(-50, 50)}",
+						"ep":"{(dice(1,6) * 10) + rand(-5, 5)}",
+						"coins":"{#cp+#ep}",
+						"value":"{floor((#cp/100 + #ep/2) * 100) / 100}",
+						"weight":"{floor(#coins/50 * 100) / 100}",
+						"output":"{#cp} cp and {#ep} ep"
+					}
+				},
+				{
+					"cells": {
+						"cp":"{(dice(4,6) * 100) + rand(-50, 50)}",
+						"ep":"{(dice(1,6) * 10) + rand(-5, 5)}",
+						"coins":"{#cp+#ep}",
+						"value":"{floor((#cp/100 + #ep/2) * 100) / 100}",
+						"weight":"{floor(#coins/50 * 100) / 100}",
+						"output":"{#cp} cp and {#ep} ep"
+					}
+				}
+			]
+		}
+	]
+}

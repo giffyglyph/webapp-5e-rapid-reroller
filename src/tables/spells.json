@@ -1,0 +1,1256 @@
+{
+    "random":{
+        "0":{
+            "_rows":[
+                {
+                    "name":"Acid Splash"
+                },
+                {
+                    "name":"Blade Ward"
+                },
+                {
+                    "name":"Chill Touch"
+                },
+                {
+                    "name":"Control Flames"
+                },
+                {
+                    "name":"Create Bonfire"
+                },
+                {
+                    "name":"Dancing Lights"
+                },
+                {
+                    "name":"Druidcraft"
+                },
+                {
+                    "name":"Eldritch Blast"
+                },
+                {
+                    "name":"Fire Bolt"
+                },
+                {
+                    "name":"Friends"
+                },
+                {
+                    "name":"Frostbite"
+                },
+                {
+                    "name":"Guidance"
+                },
+                {
+                    "name":"Gust"
+                },
+                {
+                    "name":"Light"
+                },
+                {
+                    "name":"Mage Hand"
+                },
+                {
+                    "name":"Magic Stone"
+                },
+                {
+                    "name":"Mending"
+                },
+                {
+                    "name":"Message"
+                },
+                {
+                    "name":"Minor Illusion"
+                },
+                {
+                    "name":"Mold Earth"
+                },
+                {
+                    "name":"Poison Spray"
+                },
+                {
+                    "name":"Prestidigitation"
+                },
+                {
+                    "name":"Produce Flame"
+                },
+                {
+                    "name":"Ray of Frost"
+                },
+                {
+                    "name":"Resistance"
+                },
+                {
+                    "name":"Sacred Flame"
+                },
+                {
+                    "name":"Shape Water"
+                },
+                {
+                    "name":"Shillelagh"
+                },
+                {
+                    "name":"Shocking Grasp"
+                },
+                {
+                    "name":"Spare the Dying"
+                },
+                {
+                    "name":"Thaumaturgy"
+                },
+                {
+                    "name":"Thorn Whip"
+                },
+                {
+                    "name":"Thunderclap"
+                },
+                {
+                    "name":"True Strike"
+                },
+                {
+                    "name":"Vicious Mockery"
+                }
+            ]
+        },
+        "1":{
+            "_rows":[
+                {
+                    "name":"Absorb Elements"
+                },
+                {
+                    "name":"Alarm"
+                },
+                {
+                    "name":"Animal Friendship"
+                },
+                {
+                    "name":"Armor of Agathys"
+                },
+                {
+                    "name":"Arms of Hadar"
+                },
+                {
+                    "name":"Bane"
+                },
+                {
+                    "name":"Beast Bond"
+                },
+                {
+                    "name":"Bless"
+                },
+                {
+                    "name":"Burning Hands"
+                },
+                {
+                    "name":"Catapult"
+                },
+                {
+                    "name":"Charm Person"
+                },
+                {
+                    "name":"Chromatic Orb"
+                },
+                {
+                    "name":"Color Spray"
+                },
+                {
+                    "name":"Command"
+                },
+                {
+                    "name":"Compelled Duel"
+                },
+                {
+                    "name":"Comprehend Languages"
+                },
+                {
+                    "name":"Create or Destroy Water"
+                },
+                {
+                    "name":"Cure Wounds"
+                },
+                {
+                    "name":"Detect Evil and Good"
+                },
+                {
+                    "name":"Detect Magic"
+                },
+                {
+                    "name":"Detect Poison and Disease"
+                },
+                {
+                    "name":"Disguise Self"
+                },
+                {
+                    "name":"Dissonant Whispers"
+                },
+                {
+                    "name":"Divine Favor"
+                },
+                {
+                    "name":"Earth Tremor"
+                },
+                {
+                    "name":"Ensnaring Strike"
+                },
+                {
+                    "name":"Entangle"
+                },
+                {
+                    "name":"Expeditious Retreat"
+                },
+                {
+                    "name":"Faerie Fire"
+                },
+                {
+                    "name":"False Life"
+                },
+                {
+                    "name":"Feather Fall"
+                },
+                {
+                    "name":"Find Familiar"
+                },
+                {
+                    "name":"Fog Cloud"
+                },
+                {
+                    "name":"Goodberry"
+                },
+                {
+                    "name":"Grease"
+                },
+                {
+                    "name":"Guiding Bolt"
+                },
+                {
+                    "name":"Hail of Thorns"
+                },
+                {
+                    "name":"Healing Word"
+                },
+                {
+                    "name":"Hellish Rebuke"
+                },
+                {
+                    "name":"Heroism"
+                },
+                {
+                    "name":"Hex"
+                },
+                {
+                    "name":"Hunter's Mark"
+                },
+                {
+                    "name":"Ice Knife"
+                },
+                {
+                    "name":"Identify"
+                },
+                {
+                    "name":"Illusory Script"
+                },
+                {
+                    "name":"Inflict Wounds"
+                },
+                {
+                    "name":"Jump"
+                },
+                {
+                    "name":"Longstrider"
+                },
+                {
+                    "name":"Mage Armor"
+                },
+                {
+                    "name":"Magic Missile"
+                },
+                {
+                    "name":"Protection from Evil and Good"
+                },
+                {
+                    "name":"Purify Food and Drink"
+                },
+                {
+                    "name":"Ray of Sickness"
+                },
+                {
+                    "name":"Sanctuary"
+                },
+                {
+                    "name":"Searing Smite"
+                },
+                {
+                    "name":"Shield"
+                },
+                {
+                    "name":"Shield of Faith"
+                },
+                {
+                    "name":"Silent Image"
+                },
+                {
+                    "name":"Sleep"
+                },
+                {
+                    "name":"Speak with Animals"
+                },
+                {
+                    "name":"Tasha's Hideous Laughter"
+                },
+                {
+                    "name":"Tenser's Floating Disk"
+                },
+                {
+                    "name":"Thunderous Smite"
+                },
+                {
+                    "name":"Thunderwave"
+                },
+                {
+                    "name":"Unseen Servant"
+                },
+                {
+                    "name":"Witch Bolt"
+                },
+                {
+                    "name":"Wrathful Smite"
+                }
+            ]
+        },
+        "2":{
+            "_rows":[
+                {
+                    "name":"Aganazzar's Scorcher"
+                },
+                {
+                    "name":"Aid"
+                },
+                {
+                    "name":"Alter Self"
+                },
+                {
+                    "name":"Animal Messenger"
+                },
+                {
+                    "name":"Arcane Lock"
+                },
+                {
+                    "name":"Augury"
+                },
+                {
+                    "name":"Barkskin"
+                },
+                {
+                    "name":"Beast Sense"
+                },
+                {
+                    "name":"Blindness/Deafness"
+                },
+                {
+                    "name":"Blur"
+                },
+                {
+                    "name":"Branding Smite"
+                },
+                {
+                    "name":"Calm Emotions"
+                },
+                {
+                    "name":"Cloud of Daggers"
+                },
+                {
+                    "name":"Continual Flame"
+                },
+                {
+                    "name":"Cordon of Arrows"
+                },
+                {
+                    "name":"Crown of Madness"
+                },
+                {
+                    "name":"Darkness"
+                },
+                {
+                    "name":"Darkvision"
+                },
+                {
+                    "name":"Detect Thoughts"
+                },
+                {
+                    "name":"Dust Devil"
+                },
+                {
+                    "name":"Earthbind"
+                },
+                {
+                    "name":"Enhance Ability"
+                },
+                {
+                    "name":"Enlarge/Reduce"
+                },
+                {
+                    "name":"Enthrall"
+                },
+                {
+                    "name":"Find Steed"
+                },
+                {
+                    "name":"Find Traps"
+                },
+                {
+                    "name":"Flame Blade"
+                },
+                {
+                    "name":"Flaming Sphere"
+                },
+                {
+                    "name":"Gentle Repose"
+                },
+                {
+                    "name":"Gust of Wind"
+                },
+                {
+                    "name":"Heat Metal"
+                },
+                {
+                    "name":"Hold Person"
+                },
+                {
+                    "name":"Invisibility"
+                },
+                {
+                    "name":"Knock"
+                },
+                {
+                    "name":"Lesser Restoration"
+                },
+                {
+                    "name":"Levitate"
+                },
+                {
+                    "name":"Locate Animals or Plants"
+                },
+                {
+                    "name":"Locate Object"
+                },
+                {
+                    "name":"Magic Mouth"
+                },
+                {
+                    "name":"Magic Weapon"
+                },
+                {
+                    "name":"Maximilian's Earthen Grasp"
+                },
+                {
+                    "name":"Melf's Acid Arrow"
+                },
+                {
+                    "name":"Mirror Image"
+                },
+                {
+                    "name":"Misty Step"
+                },
+                {
+                    "name":"Moonbeam"
+                },
+                {
+                    "name":"Nystul's Magic Aura"
+                },
+                {
+                    "name":"Pass without Trace"
+                },
+                {
+                    "name":"Phantasmal Force"
+                },
+                {
+                    "name":"Prayer of Healing"
+                },
+                {
+                    "name":"Protection from Poison"
+                },
+                {
+                    "name":"Pyrotechnics"
+                },
+                {
+                    "name":"Ray of Enfeeblement"
+                },
+                {
+                    "name":"Rope Trick"
+                },
+                {
+                    "name":"Scorching Ray"
+                },
+                {
+                    "name":"See Invisibility"
+                },
+                {
+                    "name":"Shatter"
+                },
+                {
+                    "name":"Silence"
+                },
+                {
+                    "name":"Skywrite"
+                },
+                {
+                    "name":"Snilloc's Snowball Swarm"
+                },
+                {
+                    "name":"Spider Climb"
+                },
+                {
+                    "name":"Spike Growth"
+                },
+                {
+                    "name":"Spiritual Weapon"
+                },
+                {
+                    "name":"Suggestion"
+                },
+                {
+                    "name":"Warding Bond"
+                },
+                {
+                    "name":"Warding Wind"
+                },
+                {
+                    "name":"Web"
+                },
+                {
+                    "name":"Zone of Truth"
+                }
+            ]
+        },
+        "3":{
+            "_rows":[
+                {
+                    "name":"Animate Dead"
+                },
+                {
+                    "name":"Aura of Vitality"
+                },
+                {
+                    "name":"Beacon of Hope"
+                },
+                {
+                    "name":"Bestow Curse"
+                },
+                {
+                    "name":"Blinding Smite"
+                },
+                {
+                    "name":"Blink"
+                },
+                {
+                    "name":"Call Lightning"
+                },
+                {
+                    "name":"Clairvoyance"
+                },
+                {
+                    "name":"Conjure Animals"
+                },
+                {
+                    "name":"Conjure Barrage"
+                },
+                {
+                    "name":"Counterspell"
+                },
+                {
+                    "name":"Create Food and Water"
+                },
+                {
+                    "name":"Crusader's Mantle"
+                },
+                {
+                    "name":"Daylight"
+                },
+                {
+                    "name":"Dispel Magic"
+                },
+                {
+                    "name":"Elemental Weapon"
+                },
+                {
+                    "name":"Erupting Earth"
+                },
+                {
+                    "name":"Fear"
+                },
+                {
+                    "name":"Feign Death"
+                },
+                {
+                    "name":"Fireball"
+                },
+                {
+                    "name":"Flame Arrows"
+                },
+                {
+                    "name":"Fly"
+                },
+                {
+                    "name":"Gaseous Form"
+                },
+                {
+                    "name":"Glyph of Warding"
+                },
+                {
+                    "name":"Haste"
+                },
+                {
+                    "name":"Hunger of Hadar"
+                },
+                {
+                    "name":"Hypnotic Pattern"
+                },
+                {
+                    "name":"Leomund's Tiny Hut"
+                },
+                {
+                    "name":"Lightning Arrow"
+                },
+                {
+                    "name":"Lightning Bolt"
+                },
+                {
+                    "name":"Magic Circle"
+                },
+                {
+                    "name":"Major Image"
+                },
+                {
+                    "name":"Mass Healing Word"
+                },
+                {
+                    "name":"Meld into Stone"
+                },
+                {
+                    "name":"Melf's Minute Meteors"
+                },
+                {
+                    "name":"Nondetection"
+                },
+                {
+                    "name":"Phantom Steed"
+                },
+                {
+                    "name":"Plant Growth"
+                },
+                {
+                    "name":"Protection from Energy"
+                },
+                {
+                    "name":"Remove Curse"
+                },
+                {
+                    "name":"Revivify"
+                },
+                {
+                    "name":"Sending"
+                },
+                {
+                    "name":"Sleet Storm"
+                },
+                {
+                    "name":"Slow"
+                },
+                {
+                    "name":"Speak with Dead"
+                },
+                {
+                    "name":"Speak with Plants"
+                },
+                {
+                    "name":"Spirit Guardians"
+                },
+                {
+                    "name":"Stinking Cloud"
+                },
+                {
+                    "name":"Tidal Wave"
+                },
+                {
+                    "name":"Tongues"
+                },
+                {
+                    "name":"Vampiric Touch"
+                },
+                {
+                    "name":"Wall of Sand"
+                },
+                {
+                    "name":"Wall of Water"
+                },
+                {
+                    "name":"Water Breathing"
+                },
+                {
+                    "name":"Water Walk"
+                },
+                {
+                    "name":"Wind Wall"
+                }
+            ]
+        },
+        "4":{
+            "_rows":[
+                {
+                    "name":"Arcane Eye"
+                },
+                {
+                    "name":"Aura of Life"
+                },
+                {
+                    "name":"Aura of Purity"
+                },
+                {
+                    "name":"Banishment"
+                },
+                {
+                    "name":"Blight"
+                },
+                {
+                    "name":"Compulsion"
+                },
+                {
+                    "name":"Confusion"
+                },
+                {
+                    "name":"Conjure Minor Elementals"
+                },
+                {
+                    "name":"Conjure Woodland Beings"
+                },
+                {
+                    "name":"Control Water"
+                },
+                {
+                    "name":"Death Ward"
+                },
+                {
+                    "name":"Dimension Door"
+                },
+                {
+                    "name":"Divination"
+                },
+                {
+                    "name":"Dominate Beast"
+                },
+                {
+                    "name":"Elemental Bane"
+                },
+                {
+                    "name":"Evard's Black Tentacles"
+                },
+                {
+                    "name":"Fabricate"
+                },
+                {
+                    "name":"Fire Shield"
+                },
+                {
+                    "name":"Freedom of Movement"
+                },
+                {
+                    "name":"Giant Insect"
+                },
+                {
+                    "name":"Grasping Vine"
+                },
+                {
+                    "name":"Greater Invisibility"
+                },
+                {
+                    "name":"Guardian of Faith"
+                },
+                {
+                    "name":"Hallucinatory Terrain"
+                },
+                {
+                    "name":"Ice Storm"
+                },
+                {
+                    "name":"Leomund's Secret Chest"
+                },
+                {
+                    "name":"Locate Creature"
+                },
+                {
+                    "name":"Mordenkainen's Faithful Hound"
+                },
+                {
+                    "name":"Mordenkainen's Private Sanctum"
+                },
+                {
+                    "name":"Otiluke's Resilient Sphere"
+                },
+                {
+                    "name":"Phantasmal Killer"
+                },
+                {
+                    "name":"Polymorph"
+                },
+                {
+                    "name":"Staggering Smite"
+                },
+                {
+                    "name":"Stone Shape"
+                },
+                {
+                    "name":"Stoneskin"
+                },
+                {
+                    "name":"Storm Sphere"
+                },
+                {
+                    "name":"Vitriolic Sphere"
+                },
+                {
+                    "name":"Wall of Fire"
+                },
+                {
+                    "name":"Watery Sphere"
+                }
+            ]
+        },
+        "5":{
+            "_rows":[
+                {
+                    "name":"Animate Objects"
+                },
+                {
+                    "name":"Antilife Shell"
+                },
+                {
+                    "name":"Awaken"
+                },
+                {
+                    "name":"Banishing Smite"
+                },
+                {
+                    "name":"Bigby's Hand"
+                },
+                {
+                    "name":"Circle of Power"
+                },
+                {
+                    "name":"Cloudkill"
+                },
+                {
+                    "name":"Commune"
+                },
+                {
+                    "name":"Commune with Nature"
+                },
+                {
+                    "name":"Cone of Cold"
+                },
+                {
+                    "name":"Conjure Elemental"
+                },
+                {
+                    "name":"Conjure Volley"
+                },
+                {
+                    "name":"Contact Other Plane"
+                },
+                {
+                    "name":"Contagion"
+                },
+                {
+                    "name":"Control Winds"
+                },
+                {
+                    "name":"Creation"
+                },
+                {
+                    "name":"Destructive Wave"
+                },
+                {
+                    "name":"Dispel Evil and Good"
+                },
+                {
+                    "name":"Dominate Person"
+                },
+                {
+                    "name":"Dream"
+                },
+                {
+                    "name":"Flame Strike"
+                },
+                {
+                    "name":"Geas"
+                },
+                {
+                    "name":"Greater Restoration"
+                },
+                {
+                    "name":"Hallow"
+                },
+                {
+                    "name":"Hold Monster"
+                },
+                {
+                    "name":"Immolation"
+                },
+                {
+                    "name":"Insect Plague"
+                },
+                {
+                    "name":"Legend Lore"
+                },
+                {
+                    "name":"Maelstrom"
+                },
+                {
+                    "name":"Mass Cure Wounds"
+                },
+                {
+                    "name":"Mislead"
+                },
+                {
+                    "name":"Modify Memory"
+                },
+                {
+                    "name":"Passwall"
+                },
+                {
+                    "name":"Planar Binding"
+                },
+                {
+                    "name":"Raise Dead"
+                },
+                {
+                    "name":"Rary's Telepathic Bond"
+                },
+                {
+                    "name":"Reincarnate"
+                },
+                {
+                    "name":"Scrying"
+                },
+                {
+                    "name":"Seeming"
+                },
+                {
+                    "name":"Swift Quiver"
+                },
+                {
+                    "name":"Telekinesis"
+                },
+                {
+                    "name":"Teleportation Circle"
+                },
+                {
+                    "name":"Transmute Rock"
+                },
+                {
+                    "name":"Tree Stride"
+                },
+                {
+                    "name":"Wall of Force"
+                },
+                {
+                    "name":"Wall of Stone"
+                }
+            ]
+        },
+        "6":{
+            "_rows":[
+                {
+                    "name":"Arcane Gate"
+                },
+                {
+                    "name":"Blade Barrier"
+                },
+                {
+                    "name":"Bones of the Earth"
+                },
+                {
+                    "name":"Chain Lightning"
+                },
+                {
+                    "name":"Circle of Death"
+                },
+                {
+                    "name":"Conjure Fey"
+                },
+                {
+                    "name":"Contingency"
+                },
+                {
+                    "name":"Create Undead"
+                },
+                {
+                    "name":"Disintegrate"
+                },
+                {
+                    "name":"Drawmij's Instant Summons"
+                },
+                {
+                    "name":"Eyebite"
+                },
+                {
+                    "name":"Find the Path"
+                },
+                {
+                    "name":"Flesh to Stone"
+                },
+                {
+                    "name":"Forbiddance"
+                },
+                {
+                    "name":"Globe of Invulnerability"
+                },
+                {
+                    "name":"Guards and Wards"
+                },
+                {
+                    "name":"Harm"
+                },
+                {
+                    "name":"Heal"
+                },
+                {
+                    "name":"Heroes' Feast"
+                },
+                {
+                    "name":"Investiture of Flame"
+                },
+                {
+                    "name":"Investiture of Ice"
+                },
+                {
+                    "name":"Investiture of Stone"
+                },
+                {
+                    "name":"Investiture of Wind"
+                },
+                {
+                    "name":"Magic Jar"
+                },
+                {
+                    "name":"Mass Suggestion"
+                },
+                {
+                    "name":"Move Earth"
+                },
+                {
+                    "name":"Otiluke's Freezing Sphere"
+                },
+                {
+                    "name":"Otto's Irresistible Dance"
+                },
+                {
+                    "name":"Planar Ally"
+                },
+                {
+                    "name":"Primordial Ward"
+                },
+                {
+                    "name":"Programmed Illusion"
+                },
+                {
+                    "name":"Sunbeam"
+                },
+                {
+                    "name":"Transport via Plants"
+                },
+                {
+                    "name":"True Seeing"
+                },
+                {
+                    "name":"Wall of Ice"
+                },
+                {
+                    "name":"Wall of Thorns"
+                },
+                {
+                    "name":"Wind Walk"
+                },
+                {
+                    "name":"Word of Recall"
+                }
+            ]
+        },
+        "7":{
+            "_rows":[
+                {
+                    "name":"Conjure Celestial"
+                },
+                {
+                    "name":"Delayed Blast Fireball"
+                },
+                {
+                    "name":"Divine Word"
+                },
+                {
+                    "name":"Etherealness"
+                },
+                {
+                    "name":"Finger of Death"
+                },
+                {
+                    "name":"Fire Storm"
+                },
+                {
+                    "name":"Forcecage"
+                },
+                {
+                    "name":"Mirage Arcane"
+                },
+                {
+                    "name":"Mordenkainen's Magnificent Mansion"
+                },
+                {
+                    "name":"Mordenkainen's Sword"
+                },
+                {
+                    "name":"Plane Shift"
+                },
+                {
+                    "name":"Prismatic Spray"
+                },
+                {
+                    "name":"Project Image"
+                },
+                {
+                    "name":"Regenerate"
+                },
+                {
+                    "name":"Resurrection"
+                },
+                {
+                    "name":"Reverse Gravity"
+                },
+                {
+                    "name":"Sequester"
+                },
+                {
+                    "name":"Simulacrum"
+                },
+                {
+                    "name":"Symbol"
+                },
+                {
+                    "name":"Teleport"
+                },
+                {
+                    "name":"Whirlwind"
+                }
+            ]
+        },
+        "8":{
+            "_rows":[
+                {
+                    "name":"Abi-Dalzim's Horrid Wilting"
+                },
+                {
+                    "name":"Animal Shapes"
+                },
+                {
+                    "name":"Antimagic Field"
+                },
+                {
+                    "name":"Antipathy/Sympathy"
+                },
+                {
+                    "name":"Clone"
+                },
+                {
+                    "name":"Control Weather"
+                },
+                {
+                    "name":"Demiplane"
+                },
+                {
+                    "name":"Dominate Monster"
+                },
+                {
+                    "name":"Earthquake"
+                },
+                {
+                    "name":"Feeblemind"
+                },
+                {
+                    "name":"Glibness"
+                },
+                {
+                    "name":"Holy Aura"
+                },
+                {
+                    "name":"Incendiary Cloud"
+                },
+                {
+                    "name":"Maze"
+                },
+                {
+                    "name":"Mind Blank"
+                },
+                {
+                    "name":"Power Word Stun"
+                },
+                {
+                    "name":"Sunburst"
+                },
+                {
+                    "name":"Telepathy"
+                },
+                {
+                    "name":"Tsunami"
+                }
+            ]
+        },
+        "9":{
+            "_rows":[
+                {
+                    "name":"Astral Projection"
+                },
+                {
+                    "name":"Foresight"
+                },
+                {
+                    "name":"Gate"
+                },
+                {
+                    "name":"Imprisonment"
+                },
+                {
+                    "name":"Mass Heal"
+                },
+                {
+                    "name":"Meteor Swarm"
+                },
+                {
+                    "name":"Power Word Heal"
+                },
+                {
+                    "name":"Power Word Kill"
+                },
+                {
+                    "name":"Prismatic Wall"
+                },
+                {
+                    "name":"Shapechange"
+                },
+                {
+                    "name":"Storm of Vengeance"
+                },
+                {
+                    "name":"Time Stop"
+                },
+                {
+                    "name":"True Polymorph"
+                },
+                {
+                    "name":"True Resurrection"
+                },
+                {
+                    "name":"Weird"
+                },
+                {
+                    "name":"Wish"
+                }
+            ]
+        }
+    }
+}

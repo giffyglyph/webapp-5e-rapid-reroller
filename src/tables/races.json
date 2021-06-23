@@ -1,0 +1,89 @@
+{
+	"dwarf": {
+		"_visible": true,
+		"_rows": [
+			{
+				"name": "dwarf",
+				"attribute": {
+					"con": 2
+				},
+				"size": "medium",
+				"speed": 25,
+				"traits": [
+					"darkvision",
+					"dwarven resilience",
+					"dwarven combat training",
+					"stonecunning"
+				],
+				"languages": [
+					"common",
+					"dwarvish"
+				],                    
+				"proficiencies": {
+					"tools": [
+						"[/tools,name]"
+					]
+				},
+				"subrace": "[/subrace]"
+			}
+		],
+		"subrace": {
+			"_rows": [
+				{
+					"name": "hill",
+					"attribute": {
+						"wis": 1
+					},
+					"traits": [
+						"dwarven toughness"
+					]
+				},
+				{
+					"name": "mountain",
+					"attribute": {
+						"str": 1
+					},
+					"traits": [
+						"dwarven armor training"
+					]
+				}
+			]
+		},
+		"tools": {
+			"_rows": [
+				{
+					"name": "smith's tools"
+				},
+				{
+					"name": "brewer'supplies"
+				},
+				{
+					"name": "mason's tools"
+				}                        
+			]
+		}
+	},
+	"tiefling": {
+		"_visible": true,
+		"_rows": [
+			{
+				"name": "tiefling",
+				"attribute": {
+					"int": 1,
+					"cha": 2
+				},
+				"size": "medium",
+				"speed": 30,
+				"traits": [
+					"darkvision",
+					"hellish resistance",
+					"infernal legacy"
+				],
+				"languages": [
+					"common",
+					"infernal"
+				]
+			}
+		]
+	}
+}

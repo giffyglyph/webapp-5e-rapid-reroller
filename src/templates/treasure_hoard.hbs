@@ -1,0 +1,81 @@
+{{#if cash}}
+	<div class="margin-bottom-sm">
+		<span class="key">Cash ({{cash.value}} gp):</span>
+		<ul>
+			<li>
+				<a data-toggle="modal" href="#cash-{{_logId}}">{{cash.output}}</a>
+			</li>
+		</ul>
+	</div>
+	<div id="cash-{{_logId}}" class="modal fade">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class='fa fa-times' aria-hidden='true'></i></button>
+					<h1>{{cash.output}}</h1>
+					<p class="text-center">
+						<span class="nowrap">{{cash.coins}} coins</span>, weighing <span class="nowrap">{{cash.weight}} lbs</span> and worth <span class="nowrap">{{cash.value}} gp</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+{{/if}}
+{{#if loot.gems}}
+	<div class="margin-bottom-sm">
+		<span class="key">Gemstones ({{loot.gems.count}} x {{loot.gems.value}} gp):</span>
+		<ul>
+			{{#each loot.gems.collection}}
+				<li>
+					{{#if quantity}}{{quantity}} x {{/if}}<a data-toggle="modal" href="#gem-{{@index}}-{{@root._logId}}">{{name}}</a>
+				</li>
+			{{/each}}
+		</ul>
+	</div>
+	{{#each loot.gems.collection}}
+		<div id="gem-{{@index}}-{{@root._logId}}" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class='fa fa-times' aria-hidden='true'></i></button>
+						<h1>{{name}}</h1>
+						<p class="text-center">{{description}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	{{/each}}
+{{/if}}
+{{#if loot.art}}
+	<div class="margin-bottom-sm">
+		<span class="key">Art ({{loot.art.count}} x {{loot.art.value}} gp):</span>
+		<ul>
+			{{#each loot.art.collection}}
+				<li><span class="value">{{#if quantity}}{{quantity}} x {{/if}}{{description}}</span></li>
+			{{/each}}
+		</ul>
+	</div>
+{{/if}}
+{{#if loot.items}}
+	{{#if loot.items.length}}
+		{{#each loot.items}}
+			<div class="margin-bottom-sm">
+				<span class="key">Items ({{count}} x {{type}}):</span>
+				<ul>
+					{{#each collection}}
+						<li><span class="value">{{#if quantity}}{{quantity}} x {{/if}}{{name}}</span></li>
+					{{/each}}
+				</ul>
+			</div>
+		{{/each}}
+	{{else}}
+		<div>
+			<span class="key">Items ({{loot.items.count}} x {{loot.items.type}}):</span>
+			<ul>
+				{{#each loot.items.collection}}
+					<li><span class="value">{{#if quantity}}{{quantity}} x {{/if}}{{name}}</span></li>
+				{{/each}}
+			</ul>
+		</div>
+	{{/if}}
+{{/if}}

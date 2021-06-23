@@ -1,0 +1,216 @@
+{
+	"dwarf": {
+		"_visible": true,
+		"_template": "wfrp_character", 
+		"_rows": [
+			{
+				"profile": {
+					"WS":"{30 + dice(2,10)}",
+					"BS":"{20 + dice(2,10)}",
+					"S":"{20 + dice(2,10)}",
+					"T":"{30 + dice(2,10)}",
+					"AG":"{10 + dice(2,10)}",
+					"INT":"{20 + dice(2,10)}",
+					"WP":"{20 + dice(2,10)}",
+					"FEL":"{10 + dice(2,10)}",
+					"A":"1",
+					"W":"[/wounds,count]",
+					"SB":"{floor(#S / 10)}",
+					"TB":"{floor(#T / 10)}",
+					"M":"3",
+					"MAG":"0",
+					"IP":"0",
+					"FP":"[/fate,count]"
+				},
+				"skills": [
+					"Common Knowledge (Dwarfs)",
+					"Speak Language (Khazalid)",
+					"Speak Language (Reikspiel)",
+					"[/trade,name]"
+				],
+				"talents": [
+					"Dwarfcraft",
+					"Grudge-born Fury",
+					"Night Vision",
+					"Resistance to Magic",
+					"Stout-hearted",
+					"Sturdy"
+				],
+				"career":"[/career,name]"
+			}
+		],
+		"wounds": {
+			"_rows": [
+				{
+					"_range":"1-3",
+					"count":"11"
+				},
+				{
+					"_range":"4-6",
+					"count":"12"
+				},
+				{
+					"_range":"7-9",
+					"count":"13"
+				},
+				{
+					"_range":"10",
+					"count":"14"
+				}
+			]
+		},
+		"fate": {
+			"_rows": [
+				{
+					"_range":"1-4",
+					"count":"1"
+				},
+				{
+					"_range":"5-7",
+					"count":"2"
+				},
+				{
+					"_range":"8-10",
+					"count":"3"
+				}
+			]
+		},
+		"trade": {
+			"_rows": [
+				{
+					"name":"Trade (Miner)"
+				},
+				{
+					"name":"Trade (Smith)"
+				},
+				{
+					"name":"Trade (Stoneworker)"
+				}
+			]
+		},
+		"career": {
+			"_rows": [
+				{
+					"_range":"1-2",
+					"name":"Agitator"
+				},
+				{
+					"_range":"3-6",
+					"name":"Bodyguard"
+				},
+				{
+					"_range":"7-10",
+					"name":"Burgher"
+				},
+				{
+					"_range":"11-12",
+					"name":"Coachman"
+				},
+				{
+					"_range":"13-15",
+					"name":"Entertainer"
+				},
+				{
+					"_range":"16-19",
+					"name":"Hunter"
+				},
+				{
+					"_range":"20-23",
+					"name":"Jailer"
+				},
+				{
+					"_range":"24",
+					"name":"Marine"
+				},
+				{
+					"_range":"25-30",
+					"name":"Mercenary"
+				},
+				{
+					"_range":"31-34",
+					"name":"Militiaman"
+				},
+				{
+					"_range":"35-40",
+					"name":"Miner"
+				},
+				{
+					"_range":"41-42",
+					"name":"Noble"
+				},
+				{
+					"_range":"43-45",
+					"name":"Outlaw"
+				},
+				{
+					"_range":"46-50",
+					"name":"Pit Fighter"
+				},
+				{
+					"_range":"51-54",
+					"name":"Protagonist"
+				},
+				{
+					"_range":"55-58",
+					"name":"Rat Catcher"
+				},
+				{
+					"_range":"59-63",
+					"name":"Runebearer"
+				},
+				{
+					"_range":"64-65",
+					"name":"Scribe"
+				},
+				{
+					"_range":"66",
+					"name":"Seaman"
+				},
+				{
+					"_range":"67-68",
+					"name":"Servant"
+				},
+				{
+					"_range":"69-72",
+					"name":"Shieldbreaker"
+				},
+				{
+					"_range":"73-75",
+					"name":"Smuggler"
+				},
+				{
+					"_range":"76-79",
+					"name":"Soldier"
+				},
+				{
+					"_range":"80-81",
+					"name":"Student"
+				},
+				{
+					"_range":"82-84",
+					"name":"Thief"
+				},
+				{
+					"_range":"85-87",
+					"name":"Toll Keeper"
+				},
+				{
+					"_range":"88-90",
+					"name":"Tomb Robber"
+				},
+				{
+					"_range":"91-94",
+					"name":"Tradesman"
+				},
+				{
+					"_range":"95-98",
+					"name":"Troll Slayer"
+				},
+				{
+					"_range":"99-100",
+					"name":"Watchman"
+				}
+			]
+		}
+	}
+}

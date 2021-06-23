@@ -1,0 +1,1960 @@
+{
+    "gemstone":{
+        "10gp":{
+            "_rows":[
+                {
+                    "name":"Azurite",
+                    "description":"Opaque mottled deep blue"
+                },
+                {
+                    "name":"Banded Agate",
+                    "description":"Translucent striped brown, blue, white, or red"
+                },
+                {
+                    "name":"Blue Quartz",
+                    "description":"Transparent pale blue"
+                },
+                {
+                    "name":"Eye Agate",
+                    "description":"Translucent circles of gray, white, brown, blue, or green"
+                },
+                {
+                    "name":"Hematite",
+                    "description":"Opaque gray-black"
+                },
+                {
+                    "name":"Lapis Lazuli",
+                    "description":"Opaque light and dark blue with yellow flecks"
+                },
+                {
+                    "name":"Malachite",
+                    "description":"Opaque striated light and dark green"
+                },
+                {
+                    "name":"Moss Agate",
+                    "description":"Translucent pink or yellow-white with mossy gray or green markings"
+                },
+                {
+                    "name":"Obsidian",
+                    "description":"Opaque black"
+                },
+                {
+                    "name":"Rhodochrosite",
+                    "description":"Opaque light pink"
+                },
+                {
+                    "name":"Tiger Eye",
+                    "description":"Translucent brown with golden center"
+                },
+                {
+                    "name":"Turquoise",
+                    "description":"Opaque light blue-green"
+                }
+            ]
+        },
+        "50gp":{
+            "_rows":[
+                {
+                    "name":"Bloodstone",
+                    "description":"Opaque dark gray with red flecks"
+                },
+                {
+                    "name":"Carnelian",
+                    "description":"Opaque orange to red-brown"
+                },
+                {
+                    "name":"Chalcedony",
+                    "description":"Opaque white"
+                },
+                {
+                    "name":"Chrysoprase",
+                    "description":"Translucent green"
+                },
+                {
+                    "name":"Citrine",
+                    "description":"Transparent pale yellow-brown"
+                },
+                {
+                    "name":"Jasper",
+                    "description":"Opaque blue, black, or brown"
+                },
+                {
+                    "name":"Moonstone",
+                    "description":"Translucent white with pale blue glow"
+                },
+                {
+                    "name":"Onyx",
+                    "description":"Opaque bands of black and white, or pure black or white"
+                },
+                {
+                    "name":"Quartz",
+                    "description":"Transparent white, smoky gray, or yellow"
+                },
+                {
+                    "name":"Sardonyx",
+                    "description":"Opaque bands of red and white"
+                },
+                {
+                    "name":"Star Rose Quartz",
+                    "description":"Translucent rosy stone with white star-shaped center"
+                },
+                {
+                    "name":"Zircon",
+                    "description":"Transparent pale blue-green"
+                }
+            ]
+        },
+        "100gp":{
+            "_rows":[
+                {
+                    "name":"Amber",
+                    "description":"Transparent watery gold to rich gold"
+                },
+                {
+                    "name":"Amethyst",
+                    "description":"Transparent deep purple"
+                },
+                {
+                    "name":"Chrysoberyl",
+                    "description":"Transparent yellow-green to pale green"
+                },
+                {
+                    "name":"Coral",
+                    "description":"Opaque crimson"
+                },
+                {
+                    "name":"Garnet",
+                    "description":"Transparent red, brown-green, or violet"
+                },
+                {
+                    "name":"Jade",
+                    "description":"Translucent light green, deep green, or white"
+                },
+                {
+                    "name":"Jet",
+                    "description":"Opaque deep black"
+                },
+                {
+                    "name":"Pearl",
+                    "description":"Opaque lustrous white, yellow, or pink"
+                },
+                {
+                    "name":"Spinel",
+                    "description":"Transparent red, red-brown, or deep green"
+                },
+                {
+                    "name":"Tourmaline",
+                    "description":"Transparent pale green, blue, brown, or red"
+                }
+            ]
+        },
+        "500gp":{
+            "_rows":[
+                {
+                    "name":"Alexandrite",
+                    "description":"Transparent dark green"
+                },
+                {
+                    "name":"Aquamarine",
+                    "description":"Transparent pale blue-green"
+                },
+                {
+                    "name":"Black pearl",
+                    "description":"Opaque pure black"
+                },
+                {
+                    "name":"Blue spinel",
+                    "description":"Transparent deep blue"
+                },
+                {
+                    "name":"Peridot",
+                    "description":"Transparent rich olive green"
+                },
+                {
+                    "name":"Topaz",
+                    "description":"Transparent golden yellow"
+                }
+            ]
+        },
+        "1000gp":{
+            "_rows":[
+                {
+                    "name":"Black opal",
+                    "description":"Translucent dark green with black mottling and golden flecks"
+                },
+                {
+                    "name":"Blue sapphire",
+                    "description":"Transparent blue-white to medium blue"
+                },
+                {
+                    "name":"Emerald",
+                    "description":"Transparent deep bright green"
+                },
+                {
+                    "name":"Fire opal",
+                    "description":"Translucent fiery red"
+                },
+                {
+                    "name":"Opal",
+                    "description":"Translucent pale blue with green and golden mottling"
+                },
+                {
+                    "name":"Star ruby",
+                    "description":"Translucent ruby with white star-shaped center"
+                },
+                {
+                    "name":"Star sapphire",
+                    "description":"Translucent blue sapphire with white star-shaped center"
+                },
+                {
+                    "name":"Yellow sapphire",
+                    "description":"Transparent fiery yellow or yellow-green"
+                }
+            ]
+        },
+        "5000gp":{
+            "_rows":[
+                {
+                    "name":"Black sapphire",
+                    "description":"Translucent lustrous black with glowing highlights"
+                },
+                {
+                    "name":"Diamond",
+                    "description":"Transparent blue-white, canary, pink, brown, or blue"
+                },
+                {
+                    "name":"Jacinth",
+                    "description":"Transparent fiery orange"
+                },
+                {
+                    "name":"Ruby",
+                    "description":"Transparent clear red to deep crimson"
+                }
+            ]
+        }
+    },
+    "art":{
+        "25gp":{
+            "_rows":[
+                {
+                    "description":"Silver ewer"
+                },
+                {
+                    "description":"Carved bone statuette"
+                },
+                {
+                    "description":"Small gold bracelet"
+                },
+                {
+                    "description":"Cloth-of-gold vestments"
+                },
+                {
+                    "description":"Black velvet mask stitched with silver thread"
+                },
+                {
+                    "description":"Copper chalice with silver filigree"
+                },
+                {
+                    "description":"Pair of engraved bone dice"
+                },
+                {
+                    "description":"Small mirror set in a painted wooden frame"
+                },
+                {
+                    "description":"Embroidered silk handkerchief"
+                },
+                {
+                    "description":"Gold locket with a painted portrait inside"
+                }
+            ]
+        },
+        "250gp":{
+            "_rows":[
+                {
+                    "description":"Gold ring set with bloodstones"
+                },
+                {
+                    "description":"Carved ivory statuette"
+                },
+                {
+                    "description":"Large gold bracelet"
+                },
+                {
+                    "description":"Silver necklace with a gemstone pendant"
+                },
+                {
+                    "description":"Bronze crown"
+                },
+                {
+                    "description":"Silk robe with gold embroidery"
+                },
+                {
+                    "description":"Large well-made tapestry"
+                },
+                {
+                    "description":"Brass mug with jade inlay"
+                },
+                {
+                    "description":"Box of turquoise animal figurines"
+                },
+                {
+                    "description":"Gold bird cage with electrum filigree"
+                }
+            ]
+        },
+        "750gp":{
+            "_rows":[
+                {
+                    "description":"Silver chalice set with moonstones"
+                },
+                {
+                    "description":"Silver-plated steel longsword with jet set in hilt"
+                },
+                {
+                    "description":"Carved harp of exotic wood with ivory inlay and zircon gems"
+                },
+                {
+                    "description":"Small gold idol"
+                },
+                {
+                    "description":"Gold dragon comb set with red garnets as eyes"
+                },
+                {
+                    "description":"Bottle  stopper cork embossed with gold leaf and set with amethysts"
+                },
+                {
+                    "description":"Ceremonial electrum dagger with a black pearl in the pommel"
+                },
+                {
+                    "description":"Silver and gold brooch"
+                },
+                {
+                    "description":"Obsidian statuette with gold fittings and inlay"
+                },
+                {
+                    "description":"Painted gold war mask"
+                }
+            ]
+        },
+        "2500gp":{
+            "_rows":[
+                {
+                    "description":"Fine gold chain set with a fire opal"
+                },
+                {
+                    "description":"Old masterpiece painting"
+                },
+                {
+                    "description":"Embroidered silk and velvet mantle set with numerous moonstones"
+                },
+                {
+                    "description":"Platinum bracelet set with a sapphire"
+                },
+                {
+                    "description":"Embroidered glove set with jewel chips"
+                },
+                {
+                    "description":"Jeweled anklet"
+                },
+                {
+                    "description":"Gold music box"
+                },
+                {
+                    "description":"Gold circlet set with four aquamarines"
+                },
+                {
+                    "description":"Eye patch with a mock eye set in blue sapphire and moonstone"
+                },
+                {
+                    "description":"A necklace string of small pink pearls"
+                }
+            ]
+        },
+        "7500gp":{
+            "_rows":[
+                {
+                    "description":"Jeweled gold crown"
+                },
+                {
+                    "description":"Jeweled platinum ring"
+                },
+                {
+                    "description":"Small gold statuette set with rubies"
+                },
+                {
+                    "description":"Gold cup set with emeralds"
+                },
+                {
+                    "description":"Gold jewelry box with platinum filigree"
+                },
+                {
+                    "description":"Painted gold child's sarcophagus"
+                },
+                {
+                    "description":"Jade game board with solid gold playing pieces"
+                },
+                {
+                    "description":"Bejeweled ivory drinking horn with gold filigree"
+                }
+            ]
+        }
+    },
+    "magic":{
+        "a":{
+            "_rows":[
+                {
+                    "_range":"1-50",
+                    "name":"Potion of Healing"
+                },
+                {
+                    "_range":"51-60",
+                    "name":"Spell Scroll: [spells.random.0,name] (Cantrip)"
+                },
+                {
+                    "_range":"61-70",
+                    "name":"Potion of Climbing"
+                },
+                {
+                    "_range":"71-90",
+                    "name":"Spell Scroll: [spells.random.1,name] (1st Level)"
+                },
+                {
+                    "_range":"91-94",
+                    "name":"Spell Scroll: [spells.random.2,name] (2nd Level)"
+                },
+                {
+                    "_range":"95-98",
+                    "name":"Potion of Greater Healing"
+                },
+                {
+                    "_range":"99",
+                    "name":"Bag of Holding"
+                },
+                {
+                    "_range":"100",
+                    "name":"Driftglobe"
+                }
+            ]
+        },
+        "b":{
+            "_rows":[
+                {
+                    "_range":" 1-15",
+                    "name":"Potion of Greater Healing"
+                },
+                {
+                    "_range":"16-22",
+                    "name":"Potion of Fire Breath"
+                },
+                {
+                    "_range":"23-29",
+                    "name":"Potion of Resistance"
+                },
+                {
+                    "_range":"30-34",
+                    "name":"Ammunition +1"
+                },
+                {
+                    "_range":"35-39",
+                    "name":"Potion of Animal Friendship"
+                },
+                {
+                    "_range":"40-44",
+                    "name":"Potion of Hill Giant Strength"
+                },
+                {
+                    "_range":"45-49",
+                    "name":"Potion of Growth"
+                },
+                {
+                    "_range":"50-54",
+                    "name":"Potion of Water Breathing"
+                },
+                {
+                    "_range":"55-59",
+                    "name":"Spell Scroll: [spells.random.2,name] (2nd Level)"
+                },
+                {
+                    "_range":"60-64",
+                    "name":"Spell Scroll: [spells.random.3,name] (3rd Level)"
+                },
+                {
+                    "_range":"65-67",
+                    "name":"Bag of Holding"
+                },
+                {
+                    "_range":"68-70",
+                    "name":"Keoghtom's Ointment"
+                },
+                {
+                    "_range":"71-73",
+                    "name":"Oil of Slipperiness"
+                },
+                {
+                    "_range":"74-75",
+                    "name":"Dust of Disappearance"
+                },
+                {
+                    "_range":"76-77",
+                    "name":"Dust of Dryness"
+                },
+                {
+                    "_range":"78-79",
+                    "name":"Dust of Sneezing and Choking"
+                },
+                {
+                    "_range":"80-81",
+                    "name":"Elemental Gem"
+                },
+                {
+                    "_range":"82-83",
+                    "name":"Philter of Love"
+                },
+                {
+                    "_range":"84",
+                    "name":"Alchemy Jug"
+                },
+                {
+                    "_range":"85",
+                    "name":"Cap of Water Breathing"
+                },
+                {
+                    "_range":"86",
+                    "name":"Cloak of the Manta Ray"
+                },
+                {
+                    "_range":"87",
+                    "name":"Driftglobe"
+                },
+                {
+                    "_range":"88",
+                    "name":"Goggles of Night"
+                },
+                {
+                    "_range":"89",
+                    "name":"Helm of Comprehending Languages"
+                },
+                {
+                    "_range":"90",
+                    "name":"Immovable Rod"
+                },
+                {
+                    "_range":"91",
+                    "name":"Lantern of Revealing"
+                },
+                {
+                    "_range":"92",
+                    "name":"Mariner's Armor"
+                },
+                {
+                    "_range":"93",
+                    "name":"Mithral Armor"
+                },
+                {
+                    "_range":"94",
+                    "name":"Potion of Poison"
+                },
+                {
+                    "_range":"95",
+                    "name":"Ring of Swimming"
+                },
+                {
+                    "_range":"96",
+                    "name":"Robe of Useful Items"
+                },
+                {
+                    "_range":"97",
+                    "name":"Rope of Climbing"
+                },
+                {
+                    "_range":"98",
+                    "name":"Saddle of the Cavalier"
+                },
+                {
+                    "_range":"99",
+                    "name":"Wand of Magic Detection"
+                },
+                {
+                    "_range":"100",
+                    "name":"Wand of Secrets"
+                }
+            ]
+        },
+        "c":{
+            "_rows":[
+                {
+                    "_range":" 1-15",
+                    "name":"Potion of Superior Healing"
+                },
+                {
+                    "_range":"16-22",
+                    "name":"Spell Scroll: [spells.random.4,name] (4th Level)"
+                },
+                {
+                    "_range":"23-27",
+                    "name":"Ammunition +2"
+                },
+                {
+                    "_range":"28-32",
+                    "name":"Potion of Clairvoyance"
+                },
+                {
+                    "_range":"33-37",
+                    "name":"Potion of Diminution"
+                },
+                {
+                    "_range":"38-42",
+                    "name":"Potion of Gaseous Form"
+                },
+                {
+                    "_range":"43-47",
+                    "name":"Potion of Frost Giant Strength"
+                },
+                {
+                    "_range":"48-52",
+                    "name":"Potion of Stone Giant Strength"
+                },
+                {
+                    "_range":"53-57",
+                    "name":"Potion of Heroism"
+                },
+                {
+                    "_range":"58-62",
+                    "name":"Potion of Invulnerability"
+                },
+                {
+                    "_range":"63-67",
+                    "name":"Potion of Mind Reading"
+                },
+                {
+                    "_range":"68-72",
+                    "name":"Spell Scroll: [spells.random.5,name] (5th Level)"
+                },
+                {
+                    "_range":"73-75",
+                    "name":"Elixir of Health"
+                },
+                {
+                    "_range":"76-78",
+                    "name":"Oil of Etherealness"
+                },
+                {
+                    "_range":"79-81",
+                    "name":"Potion of Fire Giant Strength"
+                },
+                {
+                    "_range":"82-84",
+                    "name":"Quaal's Feather Token"
+                },
+                {
+                    "_range":"85-87",
+                    "name":"Scroll of Protection"
+                },
+                {
+                    "_range":"88-89",
+                    "name":"Bag of Beans"
+                },
+                {
+                    "_range":"90-91",
+                    "name":"Bead of Force"
+                },
+                {
+                    "_range":"92",
+                    "name":"Chime of Opening"
+                },
+                {
+                    "_range":"93",
+                    "name":"Decanter of Endless Water"
+                },
+                {
+                    "_range":"94",
+                    "name":"Eyes of Minute Seeing"
+                },
+                {
+                    "_range":"95",
+                    "name":"Folding Boat"
+                },
+                {
+                    "_range":"96",
+                    "name":"Heward's Handy Haversack"
+                },
+                {
+                    "_range":"97",
+                    "name":"Horseshoes of Speed"
+                },
+                {
+                    "_range":"98",
+                    "name":"Necklace of Fireballs"
+                },
+                {
+                    "_range":"99",
+                    "name":"Periapt of Health"
+                },
+                {
+                    "_range":"100",
+                    "name":"Sending Stones"
+                }
+            ]
+        },
+        "d":{
+            "_rows":[
+                {
+                    "range":"1-20",
+                    "name":"Potion of supreme healing"
+                },
+                {
+                    "range":"21-30",
+                    "name":"Potion of invisibility"
+                },
+                {
+                    "range":"31-40",
+                    "name":"Potion of speed"
+                },
+                {
+                    "range":"41-50",
+                    "name":"Spell scroll: [spells.random.6,name] (6th level)"
+                },
+                {
+                    "range":"51-57",
+                    "name":"Spell scroll: [spells.random.7,name] (7th level)"
+                },
+                {
+                    "range":"58-62",
+                    "name":"Ammunition, +3"
+                },
+                {
+                    "range":"63-67",
+                    "name":"Oil of sharpness"
+                },
+                {
+                    "range":"68-72",
+                    "name":"Potion of flying"
+                },
+                {
+                    "range":"73-77",
+                    "name":"Potion of cloud giant strength"
+                },
+                {
+                    "range":"78-82",
+                    "name":"Potion of longevity"
+                },
+                {
+                    "range":"83-87",
+                    "name":"Potion of vitality"
+                },
+                {
+                    "range":"88-92",
+                    "name":"Spell scroll: [spells.random.8,name] (8th level)"
+                },
+                {
+                    "range":"93-95",
+                    "name":"Horseshoes of a zephyr"
+                },
+                {
+                    "range":"96-98",
+                    "name":"Nolzur's marvelous pigments"
+                },
+                {
+                    "range":"99",
+                    "name":"Bag of devouring"
+                },
+                {
+                    "range":"100",
+                    "name":"Portable hole"
+                }
+            ]
+        },
+        "e":{
+            "_rows":[
+                {
+                    "range":"1-30",
+                    "name":"Spell scroll: [spells.random.8,name] (8th level)"
+                },
+                {
+                    "range":"31-55",
+                    "name":"Potion of storm giant strength"
+                },
+                {
+                    "range":"56-70",
+                    "name":"Potion of supreme healing"
+                },
+                {
+                    "range":"71-85",
+                    "name":"Spell scroll: [spells.random.9,name] (9th level)"
+                },
+                {
+                    "range":"86-93",
+                    "name":"Universal solvent"
+                },
+                {
+                    "range":"94-98",
+                    "name":"Arrow of slaying"
+                },
+                {
+                    "range":"99-100",
+                    "name":"Sovereign glue"
+                }
+            ]
+        },
+        "f":{
+            "_rows":[
+                {
+                    "_range":"1-15",
+                    "name":"Weapon +1"
+                },
+                {
+                    "_range":"16-18",
+                    "name":"Shield +1"
+                },
+                {
+                    "_range":"19-21",
+                    "name":"Sentinel Shield"
+                },
+                {
+                    "_range":"22-23",
+                    "name":"Amulet of Proof Against Detection and Location"
+                },
+                {
+                    "_range":"24-25",
+                    "name":"Boots of Elvenkind"
+                },
+                {
+                    "_range":"26-27",
+                    "name":"Boots of Striding and Springing"
+                },
+                {
+                    "_range":"28-29",
+                    "name":"Bracers of Archery"
+                },
+                {
+                    "_range":"30-31",
+                    "name":"Brooch of Shielding"
+                },
+                {
+                    "_range":"32-33",
+                    "name":"Broom of Flying"
+                },
+                {
+                    "_range":"34-35",
+                    "name":"Cloak of Elvenkind"
+                },
+                {
+                    "_range":"36-37",
+                    "name":"Cloak of Protection"
+                },
+                {
+                    "_range":"38-39",
+                    "name":"Gauntlets of Ogre Power"
+                },
+                {
+                    "_range":"40-41",
+                    "name":"Hat of Disguise"
+                },
+                {
+                    "_range":"42-43",
+                    "name":"Javelin of Lightning"
+                },
+                {
+                    "_range":"44-45",
+                    "name":"Pearl of Power"
+                },
+                {
+                    "_range":"46-47",
+                    "name":"Rod of the Pact Keeper +1"
+                },
+                {
+                    "_range":"48-49",
+                    "name":"Slippers of Spider Climbing"
+                },
+                {
+                    "_range":"50-51",
+                    "name":"Staff of the Adder"
+                },
+                {
+                    "_range":"52-53",
+                    "name":"Staff of the Python"
+                },
+                {
+                    "_range":"54-55",
+                    "name":"Sword of Vengeance"
+                },
+                {
+                    "_range":"56-57",
+                    "name":"Trident of Fish Command"
+                },
+                {
+                    "_range":"58-59",
+                    "name":"Wand of Magic Missiles"
+                },
+                {
+                    "_range":"60-61",
+                    "name":"Wand of the War Mage +1"
+                },
+                {
+                    "_range":"62-63",
+                    "name":"Wand of Web"
+                },
+                {
+                    "_range":"64-65",
+                    "name":"Weapon of Warning"
+                },
+                {
+                    "_range":"66",
+                    "name":"Adamantine Armor (Chain Mail)"
+                },
+                {
+                    "_range":"67",
+                    "name":"Adamantine Armor (Chain Shirt)"
+                },
+                {
+                    "_range":"68",
+                    "name":"Adamantine Armor (Scale Mail)"
+                },
+                {
+                    "_range":"69",
+                    "name":"Bag of Tricks (Gray)"
+                },
+                {
+                    "_range":"70",
+                    "name":"Bag of Tricks (Rust)"
+                },
+                {
+                    "_range":"71",
+                    "name":"Bag of Tricks (Tan)"
+                },
+                {
+                    "_range":"72",
+                    "name":"Boots of the Winterlands"
+                },
+                {
+                    "_range":"73",
+                    "name":"Circlet of Blasting"
+                },
+                {
+                    "_range":"74",
+                    "name":"Deck of Illusions"
+                },
+                {
+                    "_range":"75",
+                    "name":"Eversmoking Bottle"
+                },
+                {
+                    "_range":"76",
+                    "name":"Eyes of Charming"
+                },
+                {
+                    "_range":"77",
+                    "name":"Eyes of the Eagle"
+                },
+                {
+                    "_range":"78",
+                    "name":"Figurine of Wondrous Power (Silver Raven)"
+                },
+                {
+                    "_range":"79",
+                    "name":"Gem of Brightness"
+                },
+                {
+                    "_range":"80",
+                    "name":"Gloves of Missile Snaring"
+                },
+                {
+                    "_range":"81",
+                    "name":"Gloves of Swimming and Climbing"
+                },
+                {
+                    "_range":"82",
+                    "name":"Gloves of Thievery"
+                },
+                {
+                    "_range":"83",
+                    "name":"Headband of Intellect"
+                },
+                {
+                    "_range":"84",
+                    "name":"Helm of Telepathy"
+                },
+                {
+                    "_range":"85",
+                    "name":"Instrument of the Bards (Doss Lute)"
+                },
+                {
+                    "_range":"86",
+                    "name":"Instrument of the Bards (Fochlucan Bandore)"
+                },
+                {
+                    "_range":"87",
+                    "name":"Instrument of the Bards (Mac-Fuimidh Cittern)"
+                },
+                {
+                    "_range":"88",
+                    "name":"Medallion of Thoughts"
+                },
+                {
+                    "_range":"89",
+                    "name":"Necklace of Adaptation"
+                },
+                {
+                    "_range":"90",
+                    "name":"Periapt of Wound Closure"
+                },
+                {
+                    "_range":"91",
+                    "name":"Pipes of Haunting"
+                },
+                {
+                    "_range":"92",
+                    "name":"Pipes of the Sewers"
+                },
+                {
+                    "_range":"93",
+                    "name":"Ring of Jumping"
+                },
+                {
+                    "_range":"94",
+                    "name":"Ring of Mind Shielding"
+                },
+                {
+                    "_range":"95",
+                    "name":"Ring of Warmth"
+                },
+                {
+                    "_range":"96",
+                    "name":"Ring of Water Walking"
+                },
+                {
+                    "_range":"97",
+                    "name":"Quiver of Ehlonna"
+                },
+                {
+                    "_range":"98",
+                    "name":"Stone of Good Luck"
+                },
+                {
+                    "_range":"99",
+                    "name":"Wind Fan"
+                },
+                {
+                    "_range":"100",
+                    "name":"Winged Boots"
+                }
+            ]
+        },
+        "g":{
+            "_rows":[
+                {
+                    "_range":"1-11",
+                    "name":"Weapon +2"
+                },
+                {
+                    "_range":"12-14",
+                    "name":"Figurine of Wondrous Power: [/WondrousPowerFigurine,name]"
+                },
+                {
+                    "_range":"15",
+                    "name":"Adamantine Armor (Breastplate)"
+                },
+                {
+                    "_range":"16",
+                    "name":"Adamantine Armor (Splint)"
+                },
+                {
+                    "_range":"17",
+                    "name":"Amulet of Health"
+                },
+                {
+                    "_range":"18",
+                    "name":"Armor of Vulnerability"
+                },
+                {
+                    "_range":"19",
+                    "name":"Arrow-Catching Shield"
+                },
+                {
+                    "_range":"20",
+                    "name":"Belt of Dwarvenkind"
+                },
+                {
+                    "_range":"21",
+                    "name":"Belt of Hill Giant Strength"
+                },
+                {
+                    "_range":"22",
+                    "name":"Berserker Axe"
+                },
+                {
+                    "_range":"23",
+                    "name":"Boots of Levitation"
+                },
+                {
+                    "_range":"24",
+                    "name":"Boots of Speed"
+                },
+                {
+                    "_range":"25",
+                    "name":"Bowl of Commanding Water Elementals"
+                },
+                {
+                    "_range":"26",
+                    "name":"Bracers of Defense"
+                },
+                {
+                    "_range":"27",
+                    "name":"Brazier of Commanding Fire Elementals"
+                },
+                {
+                    "_range":"28",
+                    "name":"Cape of the Mountebank"
+                },
+                {
+                    "_range":"29",
+                    "name":"Censer of Controlling Air Elementals"
+                },
+                {
+                    "_range":"30",
+                    "name":"Armor +1 (Chain Mail)"
+                },
+                {
+                    "_range":"31",
+                    "name":"Armor of Resistance (Chain Mail)"
+                },
+                {
+                    "_range":"32",
+                    "name":"Armor +1 (Chain Shirt)"
+                },
+                {
+                    "_range":"33",
+                    "name":"Armor of Resistance (Chain Shirt)"
+                },
+                {
+                    "_range":"34",
+                    "name":"Cloak of Displacement"
+                },
+                {
+                    "_range":"35",
+                    "name":"Cloak of the Bat"
+                },
+                {
+                    "_range":"36",
+                    "name":"Cube of Force"
+                },
+                {
+                    "_range":"37",
+                    "name":"Daern's Instant Fortress"
+                },
+                {
+                    "_range":"38",
+                    "name":"Dagger of Venom"
+                },
+                {
+                    "_range":"39",
+                    "name":"Dimensional Shackles"
+                },
+                {
+                    "_range":"40",
+                    "name":"Dragon Slayer"
+                },
+                {
+                    "_range":"41",
+                    "name":"Elven Chain"
+                },
+                {
+                    "_range":"42",
+                    "name":"Flame Tongue"
+                },
+                {
+                    "_range":"43",
+                    "name":"Gem of Seeing"
+                },
+                {
+                    "_range":"44",
+                    "name":"Giant Slayer"
+                },
+                {
+                    "_range":"45",
+                    "name":"Clamoured Studded Leather"
+                },
+                {
+                    "_range":"46",
+                    "name":"Helm of Teleportation"
+                },
+                {
+                    "_range":"47",
+                    "name":"Horn of Blasting"
+                },
+                {
+                    "_range":"48",
+                    "name":"Horn of Valhalla (Silver or Brass)"
+                },
+                {
+                    "_range":"49",
+                    "name":"Instrument of the Bards (Canaith Mandolin)"
+                },
+                {
+                    "_range":"50",
+                    "name":"Instrument of the Bards (Cii lyre)"
+                },
+                {
+                    "_range":"51",
+                    "name":"loun Stone (Awareness)"
+                },
+                {
+                    "_range":"52",
+                    "name":"loun Stone (Protection)"
+                },
+                {
+                    "_range":"53",
+                    "name":"loun Stone (Reserve)"
+                },
+                {
+                    "_range":"54",
+                    "name":"loun Stone (Sustenance)"
+                },
+                {
+                    "_range":"55",
+                    "name":"Iron Bands of Bilarro "
+                },
+                {
+                    "_range":"56",
+                    "name":"Armor +1"
+                },
+                {
+                    "_range":"57",
+                    "name":"Armor of Resistance (Leather)"
+                },
+                {
+                    "_range":"58",
+                    "name":"Mace of Disruption"
+                },
+                {
+                    "_range":"59",
+                    "name":"Mace of Smiting"
+                },
+                {
+                    "_range":"60",
+                    "name":"Mace of Terror"
+                },
+                {
+                    "_range":"61",
+                    "name":"Mantle of Spell Resistance"
+                },
+                {
+                    "_range":"62",
+                    "name":"Necklace of Prayer Beads"
+                },
+                {
+                    "_range":"63",
+                    "name":"Periapt of Proof Against Poison"
+                },
+                {
+                    "_range":"64",
+                    "name":"Ring of Animal Influence"
+                },
+                {
+                    "_range":"65",
+                    "name":"Ring of Evasion"
+                },
+                {
+                    "_range":"66",
+                    "name":"Ring of Feather Falling"
+                },
+                {
+                    "_range":"67",
+                    "name":"Ring of Free Action"
+                },
+                {
+                    "_range":"68",
+                    "name":"Ring of Protection"
+                },
+                {
+                    "_range":"69",
+                    "name":"Ring of Resistance"
+                },
+                {
+                    "_range":"70",
+                    "name":"Ring of Spell Storing"
+                },
+                {
+                    "_range":"71",
+                    "name":"Ring of the Ram"
+                },
+                {
+                    "_range":"72",
+                    "name":"Ring of X-Ray Vision"
+                },
+                {
+                    "_range":"73",
+                    "name":"Robe of Eyes"
+                },
+                {
+                    "_range":"74",
+                    "name":"Rod of Rulership"
+                },
+                {
+                    "_range":"75",
+                    "name":"Rod of the Pact Keeper +2"
+                },
+                {
+                    "_range":"76",
+                    "name":"Rope of Entanglement"
+                },
+                {
+                    "_range":"77",
+                    "name":"Armor +1 (Scale Mail)"
+                },
+                {
+                    "_range":"78",
+                    "name":"Armor of Resistance (Scale Mail)"
+                },
+                {
+                    "_range":"79",
+                    "name":"Shield +2"
+                },
+                {
+                    "_range":"80",
+                    "name":"Shield of Missile Attraction"
+                },
+                {
+                    "_range":"81",
+                    "name":"Staff of Charming"
+                },
+                {
+                    "_range":"82",
+                    "name":"Staff of Healing"
+                },
+                {
+                    "_range":"83",
+                    "name":"Staff of Swarming Insects"
+                },
+                {
+                    "_range":"84",
+                    "name":"Staff of the Eoodlands"
+                },
+                {
+                    "_range":"85",
+                    "name":"Staff of Withering"
+                },
+                {
+                    "_range":"86",
+                    "name":"Stone of Controlling Earth Elementals"
+                },
+                {
+                    "_range":"87",
+                    "name":"Sun Blade"
+                },
+                {
+                    "_range":"88",
+                    "name":"Sword of Life Stealing"
+                },
+                {
+                    "_range":"89",
+                    "name":"Sword of Wounding"
+                },
+                {
+                    "_range":"90",
+                    "name":"Tentacle Rod"
+                },
+                {
+                    "_range":"91",
+                    "name":"Vicious Weapon"
+                },
+                {
+                    "_range":"92",
+                    "name":"Wand of Binding"
+                },
+                {
+                    "_range":"93",
+                    "name":"Wand of Enemy Detection"
+                },
+                {
+                    "_range":"94",
+                    "name":"Wand of Fear"
+                },
+                {
+                    "_range":"95",
+                    "name":"Wand of Fireballs"
+                },
+                {
+                    "_range":"96",
+                    "name":"Wand of Lightning Bolts"
+                },
+                {
+                    "_range":"97",
+                    "name":"Wand of Paralysis"
+                },
+                {
+                    "_range":"98",
+                    "name":"Wand of the War Mage +2"
+                },
+                {
+                    "_range":"99",
+                    "name":"Wand of Wonder"
+                },
+                {
+                    "_range":"100",
+                    "name":"Wings of Flying"
+                }
+            ],
+            "WondrousPowerFigurine":{
+                "_rows":[
+                    {
+                        "_range":"1",
+                        "name":"Bronze Griffon"
+                    },
+                    {
+                        "_range":"2",
+                        "name":"Ebony Fly"
+                    },
+                    {
+                        "_range":"3",
+                        "name":"Golden Lions"
+                    },
+                    {
+                        "_range":"4",
+                        "name":"Ivory Goats"
+                    },
+                    {
+                        "_range":"5",
+                        "name":"Marble Elephant"
+                    },
+                    {
+                        "_range":"6-7",
+                        "name":"Onyx Dog"
+                    },
+                    {
+                        "_range":"8",
+                        "name":"Serpentine Owl"
+                    }
+                ]
+            }
+        },
+        "h":{
+            "_rows":[
+                {
+                    "range":"1-10",
+                    "name":"Weapon, +3"
+                },
+                {
+                    "range":"11-12",
+                    "name":"Amulet of the planes"
+                },
+                {
+                    "range":"13-14",
+                    "name":"Carpet of flying"
+                },
+                {
+                    "range":"15-16",
+                    "name":"Crystal ball (very rare version)"
+                },
+                {
+                    "range":"17-18",
+                    "name":"Ring of regeneration"
+                },
+                {
+                    "range":"19-20",
+                    "name":"Ring of shooting stars"
+                },
+                {
+                    "range":"21-22",
+                    "name":"Ring of telekinesis"
+                },
+                {
+                    "range":"23-24",
+                    "name":"Robe of scintillating colors"
+                },
+                {
+                    "range":"25-26",
+                    "name":"Robe of stars"
+                },
+                {
+                    "range":"27-28",
+                    "name":"Rod of absorption"
+                },
+                {
+                    "range":"29-30",
+                    "name":"Rod of alertness"
+                },
+                {
+                    "range":"31-32",
+                    "name":"Rod of security"
+                },
+                {
+                    "range":"33-34",
+                    "name":"Rod of the pact keeper, +3"
+                },
+                {
+                    "range":"35-36",
+                    "name":"Scimitar of speed"
+                },
+                {
+                    "range":"37-38",
+                    "name":"Shield, +3"
+                },
+                {
+                    "range":"39-40",
+                    "name":"Staff of fire"
+                },
+                {
+                    "range":"41-42",
+                    "name":"Staff of frost"
+                },
+                {
+                    "range":"43-44",
+                    "name":"Staff of power"
+                },
+                {
+                    "range":"45-46",
+                    "name":"Staff of striking"
+                },
+                {
+                    "range":"47-48",
+                    "name":"Staff of thunder and lightning"
+                },
+                {
+                    "range":"49-50",
+                    "name":"Sword of sharpness"
+                },
+                {
+                    "range":"51-52",
+                    "name":"Wand of polymorph"
+                },
+                {
+                    "range":"53-54",
+                    "name":"Wand of the war mage, +3"
+                },
+                {
+                    "range":"55",
+                    "name":"Adamantine armor (half plate)"
+                },
+                {
+                    "range":"56",
+                    "name":"Adamantine armor (plate)"
+                },
+                {
+                    "range":"57",
+                    "name":"Animated shield"
+                },
+                {
+                    "range":"58",
+                    "name":"Belt of fire giant strength"
+                },
+                {
+                    "range":"59",
+                    "name":"Belt of frost (or stone) giant strength"
+                },
+                {
+                    "range":"60",
+                    "name":"Armor, +1 breastplate"
+                },
+                {
+                    "range":"61",
+                    "name":"Armor of resistance (breastplate)"
+                },
+                {
+                    "range":"62",
+                    "name":"Candle of invocation"
+                },
+                {
+                    "range":"63",
+                    "name":"Armor, +2 chain mail"
+                },
+                {
+                    "range":"64",
+                    "name":"Armor, +2 chain shirt"
+                },
+                {
+                    "range":"65",
+                    "name":"Cloak of arachnida"
+                },
+                {
+                    "range":"66",
+                    "name":"Dancing sword"
+                },
+                {
+                    "range":"67",
+                    "name":"Demon armor"
+                },
+                {
+                    "range":"68",
+                    "name":"Dragon scale mail"
+                },
+                {
+                    "range":"69",
+                    "name":"Dwarven plate"
+                },
+                {
+                    "range":"70",
+                    "name":"Dwarven thrower"
+                },
+                {
+                    "range":"71",
+                    "name":"Efreeti bottle"
+                },
+                {
+                    "range":"72",
+                    "name":"Figurine of wondrous power (obsidian steed)"
+                },
+                {
+                    "range":"73",
+                    "name":"Frost brand"
+                },
+                {
+                    "range":"74",
+                    "name":"Helm of brilliance"
+                },
+                {
+                    "range":"75",
+                    "name":"Horn of Valhalla (bronze)"
+                },
+                {
+                    "range":"76",
+                    "name":"Instrument of the bards (Anstruth harp)"
+                },
+                {
+                    "range":"77",
+                    "name":"loun stone (absorption)"
+                },
+                {
+                    "range":"78",
+                    "name":"loun stone (agility)"
+                },
+                {
+                    "range":"79",
+                    "name":"loun stone (fortitude)"
+                },
+                {
+                    "range":"80",
+                    "name":"loun stone (insight)"
+                },
+                {
+                    "range":"81",
+                    "name":"loun stone (intellect)"
+                },
+                {
+                    "range":"82",
+                    "name":"loun stone (leadership)"
+                },
+                {
+                    "range":"83",
+                    "name":"loun stone (strength)"
+                },
+                {
+                    "range":"84",
+                    "name":"Armor, +2 leather"
+                },
+                {
+                    "range":"85",
+                    "name":"Manual of bodily health"
+                },
+                {
+                    "range":"86",
+                    "name":"Manual of gainful exercise"
+                },
+                {
+                    "range":"87",
+                    "name":"Manual of golems"
+                },
+                {
+                    "range":"88",
+                    "name":"Manual of quickness of action"
+                },
+                {
+                    "range":"89",
+                    "name":"Mirror of life trapping"
+                },
+                {
+                    "range":"90",
+                    "name":"Nine lives stealer"
+                },
+                {
+                    "range":"91",
+                    "name":"Oath bow"
+                },
+                {
+                    "range":"92",
+                    "name":"Armor, +2 scale mail"
+                },
+                {
+                    "range":"93",
+                    "name":"Spellguard shield"
+                },
+                {
+                    "range":"94",
+                    "name":"Armor, +1 splint"
+                },
+                {
+                    "range":"95",
+                    "name":"Armor of resistance (splint)"
+                },
+                {
+                    "range":"96",
+                    "name":"Armor, +1 studded leather"
+                },
+                {
+                    "range":"97",
+                    "name":"Armor of resistance (studded leather)"
+                },
+                {
+                    "range":"98",
+                    "name":"Tome of clear thought"
+                },
+                {
+                    "range":"99",
+                    "name":"Tome of leadership and influence"
+                },
+                {
+                    "range":"100",
+                    "name":"Tome of understanding"
+                }
+            ]
+        },
+		"i":{
+			"_rows": [
+				{
+					"_range": "01-05",
+					"name": "Defender"
+				},
+				{
+					"_range": "06-10",
+					"name": "Hammer of thunderbolts"
+				},
+				{
+					"_range": "11-15",
+					"name": "Luck blade"
+				},
+				{
+					"_range": "16-20",
+					"name": "Sword of answering"
+				},
+				{
+					"_range": "21-23",
+					"name": "Holy avenger"
+				},
+				{
+					"_range": "24-26",
+					"name": "Ring of djinni summoning"
+				},
+				{
+					"_range": "27-29",
+					"name": "Ring of invisibility"
+				},
+				{
+					"_range": "30-32",
+					"name": "Ring of spell turning"
+				},
+				{
+					"_range": "33-35",
+					"name": "Rod of lordly might"
+				},
+				{
+					"_range": "36-38",
+					"name": "Staff of the magi"
+				},
+				{
+					"_range": "39-41",
+					"name": "Vorpal sword"
+				},
+				{
+					"_range": "42-43",
+					"name": "Belt of cloud giant strength"
+				},
+				{
+					"_range": "44-45",
+					"name": "Armor, +2 breastplate"
+				},
+				{
+					"_range": "46-47",
+					"name": "Armor, +3 chain mail"
+				},
+				{
+					"_range": "48-49",
+					"name": "Armor, +3 chain shirt"
+				},
+				{
+					"_range": "50-51",
+					"name": "Cloak of invisibility"
+				},
+				{
+					"_range": "52-53",
+					"name": "Crystal ball (legendary version)"
+				},
+				{
+					"_range": "54-55",
+					"name": "Armor, +1 half plate"
+				},
+				{
+					"_range": "56-57",
+					"name": "Iron flask"
+				},
+				{
+					"_range": "58-59",
+					"name": "Armor, +3 leather"
+				},
+				{
+					"_range": "60-61",
+					"name": "Armor, +1 plate"
+				},
+				{
+					"_range": "62-63",
+					"name": "Robe of the archmagi"
+				},
+				{
+					"_range": "64-65",
+					"name": "Rod of resurrection"
+				},
+				{
+					"_range": "66-67",
+					"name": "Armor, +1 scale mail"
+				},
+				{
+					"_range": "68-69",
+					"name": "Scarab of protection"
+				},
+				{
+					"_range": "70-71",
+					"name": "Armor, +2 splint"
+				},
+				{
+					"_range": "72-73",
+					"name": "Armor, +2 studded leather"
+				},
+				{
+					"_range": "74-75",
+					"name": "Well of many worlds"
+				},
+				{
+					"_range": "76",
+					"name": "[/armor,name]"
+				},
+				{
+					"_range": "77",
+					"name": "Apparatus of Kwalish"
+				},
+				{
+					"_range": "78",
+					"name": "Armor of invulnerability"
+				},
+				{
+					"_range": "79",
+					"name": "Belt of storm giant strength"
+				},
+				{
+					"_range": "80",
+					"name": "Cubic gate"
+				},
+				{
+					"_range": "81",
+					"name": "Deck of many things"
+				},
+				{
+					"_range": "82",
+					"name": "Efreeti chain"
+				},
+				{
+					"_range": "83",
+					"name": "Armor of resistance (half plate)"
+				},
+				{
+					"_range": "84",
+					"name": "Horn ofValhalla (iron)"
+				},
+				{
+					"_range": "85",
+					"name": "Instrument of the bards (OIIamh harp)"
+				},
+				{
+					"_range": "86",
+					"name": "loun stone (greater absorption)"
+				},
+				{
+					"_range": "87",
+					"name": "loun stone (mastery)"
+				},
+				{
+					"_range": "88",
+					"name": "loun stone (regeneration)"
+				},
+				{
+					"_range": "89",
+					"name": "Plate armor of etherealness"
+				},
+				{
+					"_range": "90",
+					"name": "Plate armor of resistance"
+				},
+				{
+					"_range": "91",
+					"name": "Ring of air elemental command"
+				},
+				{
+					"_range": "92",
+					"name": "Ring of earth elemental command"
+				},
+				{
+					"_range": "93",
+					"name": "Ring of fire elemental command"
+				},
+				{
+					"_range": "94",
+					"name": "Ring of three wishes"
+				},
+				{
+					"_range": "95",
+					"name": "Ring of water elemental command"
+				},
+				{
+					"_range": "96",
+					"name": "Sphere of annihilation"
+				},
+				{
+					"_range": "97",
+					"name": "Talisman of pure good"
+				},
+				{
+					"_range": "98",
+					"name": "Talisman of the sphere"
+				},
+				{
+					"_range": "99",
+					"name": "Talisman of ultimate evil"
+				},
+				{
+					"_range": "100",
+					"name": "Tome of the stilled tongue"
+				}
+			],
+			"armor": {
+				"_rows": [
+					{
+						"_range": "01-02",
+						"name": "Armor, +2 half plate"
+					},
+					{
+						"_range": "03-04",
+						"name": "Armor, +2 plate"
+					},
+					{
+						"_range": "05-06",
+						"name": "Armor, +3 studded leather"
+					},
+					{
+						"_range": "07-08",
+						"name": "Armor, +3 breastplate"
+					},
+					{
+						"_range": "09-10",
+						"name": "Armor, +3 splint"
+					},
+					{
+						"_range": "11",
+						"name": "Armor, +3 half plate"
+					},
+					{
+						"_range": "12",
+						"name": "Armor, +3 plate"
+					}
+				]
+			}
+		}
+    }
+}

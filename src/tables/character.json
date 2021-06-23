@@ -1,0 +1,119 @@
+{
+	"random": {
+		"_visible": true,
+		"_rows": [
+			{
+				"race": "[/race]",
+				"class": "[/class]",
+				"attribute": {
+					"str": "{dice(3,6)}",
+					"dex": "{dice(3,6)}",
+					"con": "{dice(3,6)}",
+					"int": "{dice(3,6)}",
+					"wis": "{dice(3,6)}",
+					"cha": "{dice(3,6)}",
+					"total": "{#str+#dex+#con+#int+#wis+#cha}"
+				}
+			}
+		],
+		"race": {
+			"_visible": true,
+			"_rows": [
+				{
+					"name": "dwarf",
+					"attribute": {
+						"con": 2
+					},
+					"size": "medium",
+					"speed": 25,
+					"traits": [
+						"darkvision",
+						"dwarven resilience",
+						"dwarven combat training",
+						"stonecunning"
+					],
+					"languages": [
+						"common",
+						"dwarvish"
+					],
+					"proficiencies": {
+						"tools": [
+							"[/dwarf.tools,name]"
+						]
+					},
+					"subrace": "[/dwarf]"
+				}
+			],
+			"dwarf": {
+				"_visible": true,
+				"_rows": [
+					{
+						"name": "hill dwarf",
+						"attribute": {
+							"wis": 1
+						},
+						"traits": [
+							"dwarven toughness"
+						]
+					},
+					{
+						"name": "mountain dwarf",
+						"attribute": {
+							"str": 1
+						},
+						"traits": [
+							"dwarven armor training"
+						]
+					}
+				],
+				"tools": {
+					"_visible": true,
+					"_rows": [
+						{
+							"name": "smith's tools"
+						},
+						{
+							"name": "brewer'supplies"
+						},
+						{
+							"name": "mason's tools"
+						}
+					]
+				}
+			}
+		},
+		"class": {
+			"_rows": [
+				{
+					"name": "barbarian",
+					"proficiencies": {
+						"weapons": [
+							"simple weapons",
+							"martial weapons"
+						],
+						"armor": [
+							"light armor",
+							"medium armor",
+							"shields"
+						]
+					},
+					"saves": [
+						"str",
+						"con"
+					],
+					"subclass": "[/barbarian]"
+				}
+			],
+			"barbarian": {
+				"_rows": [
+					{
+						"name": "path of the berserker"
+					},
+					{
+						"name": "path of the totem warrior"
+					}
+				]
+			}
+		}
+	}
+}
